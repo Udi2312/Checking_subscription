@@ -1,0 +1,92 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #e3f2fd; /* Light blue background color */
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container for the content */
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  animation: fadeIn 0.5s ease-in-out; /* Subtle fade-in effect */
+}
+
+/* Heading styles */
+h1 {
+  font-size: 50px;
+  color: #4CAF50; /* Green for a friendly and fresh feel */
+  margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Button styling */
+button {
+  background-color: #4285F4; /* Google blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+  background-color: #357ae8; /* Slightly darker blue on hover */
+}
+
+/* Success message styling */
+.success-message {
+  color: #4CAF50;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 50px; /* Increased font size for success messages */
+}
+
+/* Error message styling */
+.error-message {
+  color: #F44336;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 50px; /* Increased font size for error messages */
+}
+
+/* Animation for smooth fade-in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
