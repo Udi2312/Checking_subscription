@@ -65,8 +65,15 @@ const Home_page = () => {
     <div>
       <h1>Welcome to the home page!</h1>
       <p>Click on the button below to login with Google and verify your subscription.</p>
-      <button onClick={handlelogin}>Login with Google</button>
+      <button onClick={handlelogin}>Login with Google</button> 
+      <p>
+        Here are the test ids-
+        test.user909098@gmail.com (subscribed)
+        test.user890909@gmail.com (unsubscribed)
+        password for both is - lol@123321
+      </p>
     </div>
+  
   );
 };
 
