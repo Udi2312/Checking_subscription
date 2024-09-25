@@ -3,8 +3,8 @@ import { gapi } from "gapi-script";
 import { useNavigate } from "react-router-dom";
 
 const clientId =
-  "18324293035-koervog93amh10lo8lapjli26mttapo4.apps.googleusercontent.com";
-const apiKey = "AIzaSyA8_hu6iq8AxlVPbGR5JFvdZ3P2vZSZHgg";
+"18324293035-m9adbp6au1henrpk4nvdh9456smrf2rl.apps.googleusercontent.com";
+const apiKey = "AIzaSyC-ntqvLw9vsoWsQRelxM-Pa44YsUK9d70";
 const scope = "https://www.googleapis.com/auth/youtube.readonly";
 
 const Home_page = () => {
